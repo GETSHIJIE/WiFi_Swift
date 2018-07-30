@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE0D433B210ECDDD006C5ED5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D433A210ECDDD006C5ED5 /* AppDelegate.swift */; };
+		DE0D433D210ECDDD006C5ED5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D433C210ECDDD006C5ED5 /* ViewController.swift */; };
+		DE0D4340210ECDDD006C5ED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0D433E210ECDDD006C5ED5 /* Main.storyboard */; };
+		DE0D4343210ECDDD006C5ED5 /* WiFi_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE0D4341210ECDDD006C5ED5 /* WiFi_Swift.xcdatamodeld */; };
+		DE0D4345210ECDE0006C5ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0D4344210ECDE0006C5ED5 /* Assets.xcassets */; };
+		DE0D4348210ECDE0006C5ED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0D4346210ECDE0006C5ED5 /* LaunchScreen.storyboard */; };
+		DE0D4353210ECDE0006C5ED5 /* WiFi_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D4352210ECDE0006C5ED5 /* WiFi_SwiftTests.swift */; };
+		DE0D435E210ECDE0006C5ED5 /* WiFi_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D435D210ECDE0006C5ED5 /* WiFi_SwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE0D434F210ECDE0006C5ED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0D432F210ECDDD006C5ED5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0D4336210ECDDD006C5ED5;
+			remoteInfo = WiFi_Swift;
+		};
+		DE0D435A210ECDE0006C5ED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE0D432F210ECDDD006C5ED5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0D4336210ECDDD006C5ED5;
+			remoteInfo = WiFi_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE0D4337210ECDDD006C5ED5 /* WiFi_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiFi_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0D433A210ECDDD006C5ED5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE0D433C210ECDDD006C5ED5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE0D433F210ECDDD006C5ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE0D4342210ECDDD006C5ED5 /* WiFi_Swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WiFi_Swift.xcdatamodel; sourceTree = "<group>"; };
+		DE0D4344210ECDE0006C5ED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE0D4347210ECDE0006C5ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE0D4349210ECDE0006C5ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE0D434E210ECDE0006C5ED5 /* WiFi_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiFi_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0D4352210ECDE0006C5ED5 /* WiFi_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFi_SwiftTests.swift; sourceTree = "<group>"; };
+		DE0D4354210ECDE0006C5ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE0D4359210ECDE0006C5ED5 /* WiFi_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiFi_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0D435D210ECDE0006C5ED5 /* WiFi_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFi_SwiftUITests.swift; sourceTree = "<group>"; };
+		DE0D435F210ECDE0006C5ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE0D4334210ECDDD006C5ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0D434B210ECDE0006C5ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0D4356210ECDE0006C5ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE0D432E210ECDDD006C5ED5 = {
+			isa = PBXGroup;
+			children = (
+				DE0D4339210ECDDD006C5ED5 /* WiFi_Swift */,
+				DE0D4351210ECDE0006C5ED5 /* WiFi_SwiftTests */,
+				DE0D435C210ECDE0006C5ED5 /* WiFi_SwiftUITests */,
+				DE0D4338210ECDDD006C5ED5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE0D4338210ECDDD006C5ED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D4337210ECDDD006C5ED5 /* WiFi_Swift.app */,
+				DE0D434E210ECDE0006C5ED5 /* WiFi_SwiftTests.xctest */,
+				DE0D4359210ECDE0006C5ED5 /* WiFi_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE0D4339210ECDDD006C5ED5 /* WiFi_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D433A210ECDDD006C5ED5 /* AppDelegate.swift */,
+				DE0D433C210ECDDD006C5ED5 /* ViewController.swift */,
+				DE0D433E210ECDDD006C5ED5 /* Main.storyboard */,
+				DE0D4344210ECDE0006C5ED5 /* Assets.xcassets */,
+				DE0D4346210ECDE0006C5ED5 /* LaunchScreen.storyboard */,
+				DE0D4349210ECDE0006C5ED5 /* Info.plist */,
+				DE0D4341210ECDDD006C5ED5 /* WiFi_Swift.xcdatamodeld */,
+			);
+			path = WiFi_Swift;
+			sourceTree = "<group>";
+		};
+		DE0D4351210ECDE0006C5ED5 /* WiFi_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D4352210ECDE0006C5ED5 /* WiFi_SwiftTests.swift */,
+				DE0D4354210ECDE0006C5ED5 /* Info.plist */,
+			);
+			path = WiFi_SwiftTests;
+			sourceTree = "<group>";
+		};
+		DE0D435C210ECDE0006C5ED5 /* WiFi_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D435D210ECDE0006C5ED5 /* WiFi_SwiftUITests.swift */,
+				DE0D435F210ECDE0006C5ED5 /* Info.plist */,
+			);
+			path = WiFi_SwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE0D4336210ECDDD006C5ED5 /* WiFi_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0D4362210ECDE0006C5ED5 /* Build configuration list for PBXNativeTarget "WiFi_Swift" */;
+			buildPhases = (
+				DE0D4333210ECDDD006C5ED5 /* Sources */,
+				DE0D4334210ECDDD006C5ED5 /* Frameworks */,
+				DE0D4335210ECDDD006C5ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiFi_Swift;
+			productName = WiFi_Swift;
+			productReference = DE0D4337210ECDDD006C5ED5 /* WiFi_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE0D434D210ECDE0006C5ED5 /* WiFi_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0D4365210ECDE0006C5ED5 /* Build configuration list for PBXNativeTarget "WiFi_SwiftTests" */;
+			buildPhases = (
+				DE0D434A210ECDE0006C5ED5 /* Sources */,
+				DE0D434B210ECDE0006C5ED5 /* Frameworks */,
+				DE0D434C210ECDE0006C5ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0D4350210ECDE0006C5ED5 /* PBXTargetDependency */,
+			);
+			name = WiFi_SwiftTests;
+			productName = WiFi_SwiftTests;
+			productReference = DE0D434E210ECDE0006C5ED5 /* WiFi_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE0D4358210ECDE0006C5ED5 /* WiFi_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0D4368210ECDE0006C5ED5 /* Build configuration list for PBXNativeTarget "WiFi_SwiftUITests" */;
+			buildPhases = (
+				DE0D4355210ECDE0006C5ED5 /* Sources */,
+				DE0D4356210ECDE0006C5ED5 /* Frameworks */,
+				DE0D4357210ECDE0006C5ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0D435B210ECDE0006C5ED5 /* PBXTargetDependency */,
+			);
+			name = WiFi_SwiftUITests;
+			productName = WiFi_SwiftUITests;
+			productReference = DE0D4359210ECDE0006C5ED5 /* WiFi_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE0D432F210ECDDD006C5ED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = shijie;
+				TargetAttributes = {
+					DE0D4336210ECDDD006C5ED5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DE0D434D210ECDE0006C5ED5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DE0D4336210ECDDD006C5ED5;
+					};
+					DE0D4358210ECDE0006C5ED5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DE0D4336210ECDDD006C5ED5;
+					};
+				};
+			};
+			buildConfigurationList = DE0D4332210ECDDD006C5ED5 /* Build configuration list for PBXProject "WiFi_Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE0D432E210ECDDD006C5ED5;
+			productRefGroup = DE0D4338210ECDDD006C5ED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE0D4336210ECDDD006C5ED5 /* WiFi_Swift */,
+				DE0D434D210ECDE0006C5ED5 /* WiFi_SwiftTests */,
+				DE0D4358210ECDE0006C5ED5 /* WiFi_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE0D4335210ECDDD006C5ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0D4348210ECDE0006C5ED5 /* LaunchScreen.storyboard in Resources */,
+				DE0D4345210ECDE0006C5ED5 /* Assets.xcassets in Resources */,
+				DE0D4340210ECDDD006C5ED5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0D434C210ECDE0006C5ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0D4357210ECDE0006C5ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE0D4333210ECDDD006C5ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0D4343210ECDDD006C5ED5 /* WiFi_Swift.xcdatamodeld in Sources */,
+				DE0D433D210ECDDD006C5ED5 /* ViewController.swift in Sources */,
+				DE0D433B210ECDDD006C5ED5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0D434A210ECDE0006C5ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0D4353210ECDE0006C5ED5 /* WiFi_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0D4355210ECDE0006C5ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0D435E210ECDE0006C5ED5 /* WiFi_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE0D4350210ECDE0006C5ED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0D4336210ECDDD006C5ED5 /* WiFi_Swift */;
+			targetProxy = DE0D434F210ECDE0006C5ED5 /* PBXContainerItemProxy */;
+		};
+		DE0D435B210ECDE0006C5ED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0D4336210ECDDD006C5ED5 /* WiFi_Swift */;
+			targetProxy = DE0D435A210ECDE0006C5ED5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE0D433E210ECDDD006C5ED5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE0D433F210ECDDD006C5ED5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE0D4346210ECDE0006C5ED5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE0D4347210ECDE0006C5ED5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE0D4360210ECDE0006C5ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE0D4361210ECDE0006C5ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE0D4363210ECDE0006C5ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ4HTF2EDT;
+				INFOPLIST_FILE = WiFi_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shijie.WiFi-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE0D4364210ECDE0006C5ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ4HTF2EDT;
+				INFOPLIST_FILE = WiFi_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shijie.WiFi-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE0D4366210ECDE0006C5ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ4HTF2EDT;
+				INFOPLIST_FILE = WiFi_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shijie.WiFi-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiFi_Swift.app/WiFi_Swift";
+			};
+			name = Debug;
+		};
+		DE0D4367210ECDE0006C5ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ4HTF2EDT;
+				INFOPLIST_FILE = WiFi_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shijie.WiFi-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiFi_Swift.app/WiFi_Swift";
+			};
+			name = Release;
+		};
+		DE0D4369210ECDE0006C5ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ4HTF2EDT;
+				INFOPLIST_FILE = WiFi_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shijie.WiFi-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WiFi_Swift;
+			};
+			name = Debug;
+		};
+		DE0D436A210ECDE0006C5ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZ4HTF2EDT;
+				INFOPLIST_FILE = WiFi_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shijie.WiFi-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WiFi_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE0D4332210ECDDD006C5ED5 /* Build configuration list for PBXProject "WiFi_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0D4360210ECDE0006C5ED5 /* Debug */,
+				DE0D4361210ECDE0006C5ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0D4362210ECDE0006C5ED5 /* Build configuration list for PBXNativeTarget "WiFi_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0D4363210ECDE0006C5ED5 /* Debug */,
+				DE0D4364210ECDE0006C5ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0D4365210ECDE0006C5ED5 /* Build configuration list for PBXNativeTarget "WiFi_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0D4366210ECDE0006C5ED5 /* Debug */,
+				DE0D4367210ECDE0006C5ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0D4368210ECDE0006C5ED5 /* Build configuration list for PBXNativeTarget "WiFi_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0D4369210ECDE0006C5ED5 /* Debug */,
+				DE0D436A210ECDE0006C5ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DE0D4341210ECDDD006C5ED5 /* WiFi_Swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DE0D4342210ECDDD006C5ED5 /* WiFi_Swift.xcdatamodel */,
+			);
+			currentVersion = DE0D4342210ECDDD006C5ED5 /* WiFi_Swift.xcdatamodel */;
+			path = WiFi_Swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DE0D432F210ECDDD006C5ED5 /* Project object */;
+}

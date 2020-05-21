@@ -15,6 +15,10 @@
 		DE0D4348210ECDE0006C5ED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0D4346210ECDE0006C5ED5 /* LaunchScreen.storyboard */; };
 		DE0D4353210ECDE0006C5ED5 /* WiFi_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D4352210ECDE0006C5ED5 /* WiFi_SwiftTests.swift */; };
 		DE0D435E210ECDE0006C5ED5 /* WiFi_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D435D210ECDE0006C5ED5 /* WiFi_SwiftUITests.swift */; };
+		DE0D436E210ECDFF006C5ED5 /* communication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0D436C210ECDFF006C5ED5 /* communication.storyboard */; };
+		DE0D436F210ECDFF006C5ED5 /* communication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D436D210ECDFF006C5ED5 /* communication.swift */; };
+		DE0D4372210ECE15006C5ED5 /* WiFi_Communication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D4371210ECE15006C5ED5 /* WiFi_Communication.swift */; };
+		DEB49A56222C135100A5863C /* 3dlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB49A55222C135100A5863C /* 3dlogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		DE0D4359210ECDE0006C5ED5 /* WiFi_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiFi_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0D435D210ECDE0006C5ED5 /* WiFi_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFi_SwiftUITests.swift; sourceTree = "<group>"; };
 		DE0D435F210ECDE0006C5ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE0D436C210ECDFF006C5ED5 /* communication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = communication.storyboard; sourceTree = "<group>"; };
+		DE0D436D210ECDFF006C5ED5 /* communication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = communication.swift; sourceTree = "<group>"; };
+		DE0D4371210ECE15006C5ED5 /* WiFi_Communication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiFi_Communication.swift; sourceTree = "<group>"; };
+		DEB49A55222C135100A5863C /* 3dlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3dlogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,8 @@
 		DE0D432E210ECDDD006C5ED5 = {
 			isa = PBXGroup;
 			children = (
+				DE0D436B210ECDFF006C5ED5 /* Communication */,
+				DE0D4370210ECE15006C5ED5 /* Wi-Fi */,
 				DE0D4339210ECDDD006C5ED5 /* WiFi_Swift */,
 				DE0D4351210ECDE0006C5ED5 /* WiFi_SwiftTests */,
 				DE0D435C210ECDE0006C5ED5 /* WiFi_SwiftUITests */,
@@ -126,6 +136,24 @@
 				DE0D435F210ECDE0006C5ED5 /* Info.plist */,
 			);
 			path = WiFi_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		DE0D436B210ECDFF006C5ED5 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				DEB49A55222C135100A5863C /* 3dlogo.png */,
+				DE0D436C210ECDFF006C5ED5 /* communication.storyboard */,
+				DE0D436D210ECDFF006C5ED5 /* communication.swift */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		DE0D4370210ECE15006C5ED5 /* Wi-Fi */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D4371210ECE15006C5ED5 /* WiFi_Communication.swift */,
+			);
+			path = "Wi-Fi";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0D4348210ECDE0006C5ED5 /* LaunchScreen.storyboard in Resources */,
+				DE0D436E210ECDFF006C5ED5 /* communication.storyboard in Resources */,
 				DE0D4345210ECDE0006C5ED5 /* Assets.xcassets in Resources */,
 				DE0D4340210ECDDD006C5ED5 /* Main.storyboard in Resources */,
+				DEB49A56222C135100A5863C /* 3dlogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0D436F210ECDFF006C5ED5 /* communication.swift in Sources */,
 				DE0D4343210ECDDD006C5ED5 /* WiFi_Swift.xcdatamodeld in Sources */,
 				DE0D433D210ECDDD006C5ED5 /* ViewController.swift in Sources */,
 				DE0D433B210ECDDD006C5ED5 /* AppDelegate.swift in Sources */,
+				DE0D4372210ECE15006C5ED5 /* WiFi_Communication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -421,7 +453,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
